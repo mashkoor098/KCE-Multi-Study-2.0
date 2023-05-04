@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Online Boot Store Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header class="header">
+        <div class="header-1">
+            <div id="log">
+                <a href="#" class="logo "> <i class="fas fa-book"></i> KCE Multi-Study </a>
+            </div>
+
+            <!-- _New Code_________________________________________________________________________ -->
+            <div class="wrapper  ">
+                <div class="search-input">
+                    <a href="" target="_blank" hidden></a>
+                    <input id="search-box" type="text" placeholder="Type to search..">
+                    <div class="autocom-box">
+                        <!-- here list are inserted from javascript there for it is blank -->
+                    </div>
+                    <label for="search-box" class="icon"><i class="fas fa-search"></i></label>
+                </div>
+            </div>
+            <!-- ___________________________________________________________________________________ -->
+
+            <div class="icons">
+                <div id="search-btn" class=""></div>
+
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#Paid_Courses">Paid Courses</a>
+                <a href="#featured">Free Books</a>
+                <a href="#arrivals">arrivals</a>
+                <a href="#reviews">reviews</a>
+            </nav>
+        </div>
+    </header>
+    <!-- header section ends ||-->
+
+    <!-- bottom navbar  || for mobile virsion-->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#Paid_Courses" class="fas fa-solid fa-credit-card"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+    </nav>
+
+    <!-- login form  -->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
+        </form>
+    </div>
+    <!-- login form ends -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>Join Our Best Selling <br> Courses
+                    <br>With Refer And Earn <br>Program
+                </h3>
+                <p>Learn - Earn - Grow <i class="fa line-chart" aria-hidden="true"></i></p>
+                <a href="#Paid_Courses" class="btn">shop now</a>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="https://cosmofeed.com/vig/6440d93820f1fd0020175adf" target="_blank"
+                        class="swiper-slide"><img src="image/c_home.png " alt=""></a>
+
+                    <a href="https://rebrand.ly/course/python" target="_blank" class="swiper-slide"><img
+                            src="image/python_home.png" alt=""></a>
+                    <a href="https://rebrand.ly/course/java" target="_blank" class="swiper-slide"><img
+                            src="image/java_home.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/software_home.png" target="_blank" alt=""></a>
+
+                    <a href="#" class="swiper-slide"><img src="image/software_home.png" target="_blank" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/dbms_home.png" target="_blank" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="image/CN_home.png" target="_blank" alt=""></a>
+                    <a href="https://rebrand.ly/course/java" target="_blank" class="swiper-slide"><img
+                            src="image/java_home.png" alt=""></a>
+
+
+
+                </div>
+                <img src="image/stand.png" class="stand" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- home section ense  -->
+
+    <!-- icons section starts  -->
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-lock"></i>
+            <div class="content">
+                <h3>secure payment</h3>
+                <p>100 secure payment</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-redo-alt"></i>
+            <div class="content">
+                <h3>easy returns</h3>
+                <p>10 days returns</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-headset"></i>
+            <div class="content">
+                <h3>24/7 support</h3>
+                <p>call us anytime</p>
+            </div>
+        </div>
+    </section>
+    <!-- icons section ends -->
+
+    <!-- +++++++++++ Paid_Courses +++++++++++ -->
+
+    <section class="featured" id="Paid_Courses">
+        <h1 class="heading"> <span>Paid_Courses </span> </h1>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper" id="productlist">
+
+
+                <div class="swiper-slide box , product">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/software_home.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Software <br> Engineering</h3>
+                        <a href="https://drive.google.com/drive/folders/1GCOjtifox__Zkrgp4QFyF5-6WcRgPb-9" class="btn"
+                            target="_blank">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box , product">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/java_home.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="">Java <br> Programming</h3>
+                        <a href="https://rebrand.ly/course/java" class="btn" target="_blank">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box , product">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/dbms_home.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Data Base <br> Management System<h3>
+                                <a href="https://drive.google.com/drive/folders/1GP4c6RG0t9Hkn0cbmOjzSL6AHPolOiFQ"
+                                    class="btn" target="_blank">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box , product">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/CN_home.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Computer <br> Networking</h3>
+                        <a href="https://drive.google.com/drive/folders/1G4PpG7ZU6Art3sIhjh96Tx-d8hyhuzYS" class="btn"
+                            target="_blank">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box ,product">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/c_home.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>C <br> language<br></h3>
+                        <a href="https://drive.google.com/drive/folders/1G6QlaQF2PF5NiHa1CS9quI_Wd1X2EEsr" class="btn"
+                            target="_blank">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box ,product">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/python_home.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>python <br> Programming</h3>
+                        <a href="https://drive.google.com/file/d/1RQw1pb5hHiIayhMvRuQJgnAGMGwLHICR/view?usp=sharing"
+                            class="btn" target="_blank">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- End of Paid_Courses -->
+
+    <!-- featured section starts  -->
+    <!-- Free books -->
+    <!-- +++++++++++ COMPUTER section of books +++++++++++ -->
+    <section class="featured" id="featured">
+        <h1 class="heading"> <span>Computers engineering </span> </h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box listItem">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/DAA.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Disign and analisys of algorithm</h3>
+                        <a href="https://drive.google.com/file/d/1HFoRIG1WWcjj0NrxN1dbtmOJ9smhj2JM/view?usp=sharing"
+                            class="btn" target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/OS.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Oprating <br>System</h3>
+                        <a href="https://drive.google.com/drive/folders/1GCOjtifox__Zkrgp4QFyF5-6WcRgPb-9" class="btn"
+                            target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/DLDM.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Digital logic design and micro-processor<h3>
+                                <a href="https://drive.google.com/drive/folders/1GP4c6RG0t9Hkn0cbmOjzSL6AHPolOiFQ"
+                                    class="btn" target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/PS.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Probeblity<br>and statics</h3>
+                        <a href="https://drive.google.com/drive/folders/1G4PpG7ZU6Art3sIhjh96Tx-d8hyhuzYS" class="btn"
+                            target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/BHR.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Basic<br>human rights</h3>
+                        <a href="https://drive.google.com/drive/folders/1G6QlaQF2PF5NiHa1CS9quI_Wd1X2EEsr" class="btn"
+                            target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/python.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>python<br>Programming</h3>
+                        <a href="https://drive.google.com/file/d/1RQw1pb5hHiIayhMvRuQJgnAGMGwLHICR/view?usp=sharing"
+                            class="btn" target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/DS.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Data <br>structures</h3>
+                        <a href="https://drive.google.com/drive/folders/1gM4paninT1NF55U4h359mtlKF-L1uTq5?usp=sharing"
+                            class="btn" target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/cpp.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Object oriented programming in C++</h3>
+                        <a href="https://drive.google.com/file/d/1hTWV1qec_vQ6A2_ZSuShPsK0gpo91ptb/view?usp=sharing"
+                            class="btn" target="_blank">Download</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="image/comp_syllabus.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Revised computer Syllabus 2021</h3>
+                        <a href="https://drive.google.com/drive/folders/1Jb-4A6oSyvYRZKHSM66nCKj881Mur07l" class="btn"
+                            target="_blank">Download</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- email Box section -->
+    <section class="newsletter">
+
+        <form action="">
+            <h3>Contact for any Query </h3>
+            <input type="email" name="email" placeholder="enter your email" id="" class="box">
+            <a href="mailto: patelmashkoor8@gmail.com" type="button" target="_blanck" value="Connect"
+                class="btn">Connect</a>
+        </form>
+    </section>
+    <!-- email Box section -->
+
+    <!-- arrivals section starts  -->
+    <section class="arrivals" id="arrivals">
+        <h1 class="heading"> <span>new arrivals</span> </h1>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/SE.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Software Engineering</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/CG.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Computer Graphics</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/dbms.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Database Management System</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/CAO.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>computer Architecture and organization</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/networking.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>network Management</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/iot.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>IOT</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/book-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Web - Designing</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/vr.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Virtual Reality</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/cripto.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Cripto graphy</h3>
+                        <div class="price">₹49.00 <span>₹99.00</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- arrivals section ends -->
+
+    <!-- deal section starts  -->
+    <section class="deal">
+
+        <div class="content">
+            <h3>deal of the day</h3>
+            <h1>upto 50% off</h1>
+            <p> * Open your mind to endless possibilities.<br>
+                * Read what you want, when you want…!<br>
+                * Where your imagination comes alive.<br>
+                * Take a look at our menu.
+            </p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="image">
+            <img src="image/deal-img.jpg" alt="">
+        </div>
+
+    </section>
+    <!-- deal section ends -->
+
+    <!-- reviews section starts  -->
+    <section class="reviews" id="reviews">
+        <h1 class="heading"> <span>client's reviews</span> </h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <h3>Ravi</h3>
+                    <p>Wow, This is the best website I saw before.
+                        We can find all types of books here.
+                        As well as we can download free books also. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-2.png" alt="">
+                    <h3>Nisha</h3>
+                    <p>Wow, This is the best website I saw before.
+                        We can find all types of books here.
+                        As well as we can download free books also. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-3.png" alt="">
+                    <h3>Kaif</h3>
+                    <p>Wow, This is the best website I saw before.
+                        We can find all types of books here.
+                        As well as we can download free books also. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/pic-4.png" alt="">
+                    <h3>Naira</h3>
+                    <p>Wow, This is the best website I saw before.
+                        We can find all types of books here.
+                        As well as we can download free books also. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-5.png" alt="">
+                    <h3>Krish</h3>
+                    <p>Wow, This is the best website I saw before.
+                        We can find all types of books here.
+                        As well as we can download free books also. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-6.png" alt="">
+                    <h3>Alina</h3>
+                    <p>Wow, This is the best website I saw before.
+                        We can find all types of books here.
+                        As well as we can download free books also. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- reviews section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="https://www.bing.com/maps?ty=18&q=United+States&satid=id.sid%3A5232ed96-85b1-2edb-12c6-63e6c597a1de&vdpid=244&mb=49.384357%7E-124.790756%7E25.146013%7E-66.970398&ppois=37.26518535614014_-95.88057708740234_United+States_%7E&cp=21.001388%7E75.562432&v=2&sV=1&FORM=MIRE&qpvt=maps+google+usa&lvl=13.4"
+                    target="_blank"> <i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="https://www.bing.com/maps?ty=18&q=United+States&satid=id.sid%3A5232ed96-85b1-2edb-12c6-63e6c597a1de&vdpid=244&mb=49.384357%7E-124.790756%7E25.146013%7E-66.970398&ppois=37.26518535614014_-95.88057708740234_United+States_%7E&cp=37.26531%7E-95.710144&v=2&sV=1&FORM=MIRE&qpvt=maps+google+usa&lvl=11.0"
+                    target="_blank"> <i class="fas fa-map-marker-alt"></i> USA </a>
+                <a href="https://www.bing.com/maps?ty=18&q=United+States&satid=id.sid%3A5232ed96-85b1-2edb-12c6-63e6c597a1de&vdpid=244&mb=49.384357%7E-124.790756%7E25.146013%7E-66.970398&ppois=37.26518535614014_-95.88057708740234_United+States_%7E&cp=63.168037%7E103.746321&v=2&sV=1&FORM=MIRE&qpvt=maps+google+usa&lvl=2.7"
+                    target="_blank"> <i class="fas fa-map-marker-alt"></i> russia </a>
+                <a href="https://www.bing.com/maps?ty=18&q=United+States&satid=id.sid%3A5232ed96-85b1-2edb-12c6-63e6c597a1de&vdpid=244&mb=49.384357%7E-124.790756%7E25.146013%7E-66.970398&ppois=37.26518535614014_-95.88057708740234_United+States_%7E&cp=46.64182%7E2.345404&v=2&sV=1&FORM=MIRE&qpvt=maps+google+usa&lvl=5.9"
+                    target="_blank"> <i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="https://www.bing.com/maps?ty=18&q=United+States&satid=id.sid%3A5232ed96-85b1-2edb-12c6-63e6c597a1de&vdpid=244&mb=49.384357%7E-124.790756%7E25.146013%7E-66.970398&ppois=37.26518535614014_-95.88057708740234_United+States_%7E&cp=36.288971%7E139.072417&v=2&sV=1&FORM=MIRE&qpvt=maps+google+usa&lvl=5.1"
+                    target="_blank"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="https://www.bing.com/maps?ty=18&q=United+States&satid=id.sid%3A5232ed96-85b1-2edb-12c6-63e6c597a1de&vdpid=244&mb=49.384357%7E-124.790756%7E25.146013%7E-66.970398&ppois=37.26518535614014_-95.88057708740234_United+States_%7E&cp=7.221777%7E21.058823&v=2&sV=1&FORM=MIRE&qpvt=maps+google+usa&lvl=3.6"
+                    target="_blank"> <i class="fas fa-map-marker-alt"></i> africa </a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> kceMS@gmail.com </a>
+                <a href="https://www.google.com/earth/studio/" target="_blank"><img src="image/worldmap.png" class="map"
+                        alt=""></a>
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/mashkoor111/" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/mashkoor-patel-b0b8a3231/" target="_blank" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"><span>@Copy Wright</span> | all rights reserved! </div>
+    </section>
+    <!-- footer section ends -->
+    <!-- loader -->
+    <div class="loader-container">
+        <img src="image/loader-img.gif" alt="">
+    </div>
+    <!-- ends loader -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="js/search_script.js"></script>
+    <script src="js/suggestions.js"></script>
+</body>
+
+</html>
